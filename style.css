@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#footer{
+    background-image: url(./ererere.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#footer {
+    background-color: #f8f9fa; /* Change as needed */
+    padding: 20px 0; /* Adjust padding */
+}
+.rounded-pill {
+    width: 100%; /* Make input full width */
+}
+
+#footer ul li{
+    list-style: none;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #0D8AFF, #63B4FF 50%, #A3D2FF 70%, #D0E8FF);
+    width: 100%;
+    height: 80vh; /* Use '100vh' for full viewport height or adjust as needed */
+    background-size: cover; /* Ensures the gradient covers the entire area */
+}
+
+#h_heading{
+   font-size: 100px;
+   font-weight: 900;
+}
+#h_para{
+        font-size: 20px;
+        width: 33%;
+        color: #082d619c;
+}
+.h_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 3%;
+  
+   
+}
+
+.circle-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-line hr {
+    flex: 1; /* Makes the <hr> grow to fill available space */
+    height: 2px; /* Line thickness */
+    background-color: #11bedd; /* Line color */
+    margin: 0 10px; /* Space between circles and line */
+}
+
+.circle-line i {
+    font-size: 10px; /* Adjust size of the circles */
+    color: #002A64;
+     /* Circle color */
+}
+#hero_btn .btn{
+    margin: 5px;
+
+   
+}
+
+
+#service_heading{
+    font-weight: 700;
+    color: #002A64;
+   
+}
+
+
+#service_card {
+    transition: transform 1s ease; /* Smooth transition for the transform property */
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    width:18rem;
+  
+}
+
+#service_card:hover {
+    transform: scale(1.05); /* Slightly zooms in the card on hover */
+}
+.customers .col {
+    background-color: rgb(226, 233, 238);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid white;
+    }
+    
+    .vastcope h1 {
+    font-size: 10vw;
+    color: rgb(0, 0, 31);
+    }
+
+
+
+    /* carousel css */
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: #343a40; /* Dark background color */
+        border-radius: 50%; /* Optional: Makes the icon background round */
+    }
+    
+    .carousel-control-prev:hover .carousel-control-prev-icon,
+    .carousel-control-next:hover .carousel-control-next-icon {
+        background-color: #495057; /* Darker shade on hover */
+    }
+
+
+    /* carousel css end */
+    
+    
+
+
+    @media only screen and (max-width: 699px) {
+        #footer {
+         width:100%;
+        }
+        #details p{
+            width: 100%;
+        }
+        #details form{
+           margin-top: -10%;
+           margin-bottom: 15%;
+        }
+        #pageLink ul{
+                float: left;
+        }
+        #h_heading{
+            font-size: 50px;
+            font-weight: 800;
+            text-align: center;
+            width: 80%;
+            margin-top: 5%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            margin-bottom: 50px;
+            
+        }
+        #h_para{
+            font-size: 20px;
+            width: 80%;
+            color: #082d619c;
+            text-align: center;
+           
+    }
+    #hero_btn{
+      
+    }
+    #hero_btn .btn{
+        margin: 5px;
+    
+       
+    }
+
+    #hero_img{
+        display: none;
+    }
+    .circle-line {
+       display: none;
+    }
+    #service_card {
+        transition: transform 1s ease; /* Smooth transition for the transform property */
+        cursor: pointer;
+        padding-right: 20px;
+        padding-left: 20px;
+        width:100%;
+      
+    }
+       
+      
+      }
+
+      @media only screen and (min-width: 700px) and (max-width: 999px) {
+        #footer {
+         width:100%;
+        }
+        #details p{
+            width: 100%;
+        }
+        #details form{
+           margin-top: -10%;
+           margin-bottom: 15%;
+        }
+        #pageLink ul{
+                float: left;
+        }
+        #h_heading{
+            font-size: 50px;
+            font-weight: 800;
+            width: 80%;
+            text-align: center;
+           
+            
+            
+        }
+        #h_para{
+            font-size: 20px;
+            width: 90%;
+            color: #082d619c;
+    
+        }
+        #hero_img{
+            display: none;
+        }
+        .circle-line {
+            display: none;
+         }
+            
+      }
